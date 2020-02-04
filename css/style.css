@@ -22,6 +22,8 @@
   .container {
     /* Box-model */
     width: 1024px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   @media screen and (max-width: 768px) {
@@ -32,38 +34,13 @@
     .container {
       /* Box-model */
       width: 100%;
-      margin-left: 40px;
-      margin-right: 40px;
-    }
-  }
-  
-  /* Additional Screen Sizes */
-  
-  /* Width at 320px and below */
-  @media screen and (max-width: 320px) {
-    body {
-      background-color: #eee;
-    }
-  
-    .container {
-      /* Box-model */
-      width: 100%;
       margin-left: 0px;
       margin-right: 0px;
-      padding: 0px;      
+      padding: 0px; 
+
     }
   }
-
-  /* Width at 168px and below */
-  @media screen and (max-width: 168px) {
-    body {
-      background-color: #eee;
-    }
-
-    .container {
-      /* Box-model */
-      width: 100%;
-    }
-  }
+  
+ 
 
   
