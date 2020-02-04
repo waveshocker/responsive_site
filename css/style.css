@@ -16,7 +16,7 @@
     line-height: 27px;
   
     /* Visual */
-    background-color: #ccc;
+    background-color: #eee;
   }
   
   /*
@@ -43,7 +43,7 @@
     float: left;
   
     /* Visual */
-    background: #fff;
+    background: #eee;
   }
   
   #sidebar {
@@ -56,7 +56,7 @@
   
   @media screen and (max-width: 768px) {
     body {
-      background-color: #333;
+      background-color: #eee;
     }
   
     .wrapper {
@@ -80,7 +80,7 @@
   /* Width at 320px and below */
   @media screen and (max-width: 320px) {
     body {
-      background-color: #333;
+      background-color: #eee;
     }
   
     .wrapper {
@@ -102,7 +102,7 @@
   /* Width at 168px and below */
   @media screen and (max-width: 168px) {
     body {
-      background-color: #333;
+      background-color: #eee;
     }
   
     .wrapper {
