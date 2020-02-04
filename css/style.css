@@ -1,7 +1,3 @@
-/**
- * Media Query Style Exercise: Solved;
- **/
-
  * {
     box-sizing: border-box;
   }
@@ -20,38 +16,14 @@
   }
   
   /*
-    The width of the wrapper will be 1024px
+    The width of the container will be 1024px
     at browser widths above 768px
   */
-  .wrapper {
+  .container {
     /* Box-model */
     width: 1024px;
-  
-    /* Positioning */
-    margin: 40px auto;
-  }
-  
-  #main-content,
-  #sidebar {
-    /* Box-model */
-    width: 500px;
-    padding: 30px;
-  }
-  
-  #main-content {
-    /* Positioning */
-    float: left;
-  
-    /* Visual */
-    background: #eee;
-  }
-  
-  #sidebar {
-    /* Positioning */
-    float: right;
-  
-    /* Visual */
-    background: #eee;
+    /* margin-left: 40px;
+    margin-right: 40px; */
   }
   
   @media screen and (max-width: 768px) {
@@ -59,19 +31,11 @@
       background-color: #eee;
     }
   
-    .wrapper {
+    .container {
       /* Box-model */
       width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
     }
   }
   
@@ -83,41 +47,24 @@
       background-color: #eee;
     }
   
-    .wrapper {
+    .container {
       /* Box-model */
       width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
+      margin-left: 0px;
+      margin-right: 0px;      
     }
   }
-  
+
   /* Width at 168px and below */
   @media screen and (max-width: 168px) {
     body {
       background-color: #eee;
     }
-  
-    .wrapper {
+
+    .container {
       /* Box-model */
       width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
     }
   }
+
   
