@@ -1,7 +1,10 @@
  * {
     box-sizing: border-box;
   }
-  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
   /*
     The background color will be #ccc
     at browser widths above 768px
@@ -21,10 +24,17 @@
   */
   .container {
     /* Box-model */
-    width: 1024px;
+    width: 100%;
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .footer {
+    background-color: #1696c9;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }  
   
   @media screen and (max-width: 768px) {
     body {
